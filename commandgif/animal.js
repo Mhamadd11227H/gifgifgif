@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("Animal")
+.setTitle("Flim")
 
 .setColor("RANDOM")
 
@@ -26,7 +26,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['gif-animal','animal-gif','gifanimal','animalgif'],
+  aliases: ['gif-flim','flim-gif','gifflim','flimgif'],
 
   permLevel: 0
 
@@ -34,10 +34,10 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'animal',
+  name: 'flim',
 
   description: 'rexuss',
 
-  usage: 'animal'
+  usage: 'flim'
 
 };
